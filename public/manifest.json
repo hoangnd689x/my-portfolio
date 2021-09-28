@@ -1,31 +1,6 @@
-{	"name": "my-portfolio",
-	"version": "0.1.0",
-	"private": true,
-	"homepage": "https://github.com/hoangnd689x/my-portfolio",
-	"dependencies": {
-		"gh-pages": "^2.2.0",
-		"react": "^16.8.3",
-		"react-dom": "^16.8.3",
-		"react-scripts": "2.1.5",
-		"travis": "^0.1.1",
-		"yarn": "^1.13.0",
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"predeploy": "yarn run build",
-		"deploy": "gh-pages -d build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"},
-	"eslintConfig": {
-		"extends": "react-app"},
-	"browserslist": [
-		">0.2%",
-		"not dead",
-		"not ie <= 11",
-		"not op_mini all"
-	],
+{
   "short_name": "Portfolio app",
-  "name": "Portfolio app to present my resume",
+  "name": "Portfolio app to present my portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -36,4 +11,6 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#fff",
-  "background_color": "#ffffff"}
+  "background_color": "#ffffff",
+  "homepage":""
+}
